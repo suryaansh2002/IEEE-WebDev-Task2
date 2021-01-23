@@ -1,0 +1,67 @@
+body{
+    background-image: linear-gradient(to right,#3546e6,#eb46b7); 
+}
+.card{
+    background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(156,152,158,1));
+    width: 70%;
+    margin: 60px;
+    margin: auto;
+    border-radius: 60px;
+    margin-top: 5%;
+    margin-bottom: 50px;
+
+}
+.title{
+    text-align: center;
+    padding: 20px;
+
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+}
+.img{
+    border-radius: 10px;
+    height: 60%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn{
+    background-image: linear-gradient(to right,#3546e6,#eb46b7); 
+    padding: 20px;
+    margin-top: 30px; 
+    margin-bottom: 20px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+.text1{
+    font-size: 20px;
+}
+.price{
+    color: white;
+    font-size: x-large;
+    padding-left: 30%;
+    padding-top: 15px;
+}
+
+.col-left{
+        border-right:1px solid white;
+}
+.about{
+    font-weight: bold;
+    color: white;
+    font-size: x-large;
+    text-decoration: underline;
+    padding-left: 20px;
+}
+ul{
+    color: white;
+    font-size: medium;
+}
+li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

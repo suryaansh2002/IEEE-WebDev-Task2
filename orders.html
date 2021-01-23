@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/orders.css">
     <link rel="stylesheet" type="text/css" href="css/nav.css">
-    <link rel="stylesheet" type="text/css" href="css/footer.css">
-
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -48,81 +46,61 @@
               </ul>
         </div>
       </nav>
-        <div class="card">
-          <div class="title"><a href="products/prod1.html">Apple MacBook Pro (16-inch, 16GB RAM, 1TB Storage, 2.3GHz 9th Gen Intel Core i9) - Silver</a></div>
-        <div class="img_box">
-          <img class="image" src="images/1.png">
-        </div>
-        <div class="price">
-          PRICE: Rs 2,32,990
-        </div>
-        <div class="add">
-          <button class="button btn">ADD TO CART</button>
-        </div>
+      <div class="header">
+          YOUR PREVIOUS ORDERS
       </div>
+    <div>
       <div class="card">
-        <div class="title"><a href="products/prod2.html">HP Pavilion x360 Touchscreen 2-in-1 FHD 14-inch Laptop 14-inch Laptop</a></div>
-      <div class="img_box">
-        <img class="image" src="images/2.png">
-      </div>
-      <div class="price">
-        PRICE: Rs 60,990
-      </div>
-      <div class="add">
-        <button class="button btn">ADD TO CART</button>
-      </div>
-    </div>
-    <div class="card">
-      <div class="title"><a href="products/prod3.html">Dell G3 3500 Gaming 15.6-inch FHD Laptop (10th Gen Core i7), Eclipse Black</a></div>
-    <div class="img_box">
-      <img class="image" src="images/3.png">
-    </div>
-    <div class="price">
-      PRICE: Rs 80,590
-    </div>
-    <div class="add">
-      <button class="button btn">ADD TO CART</button>
-    </div>
-  </div>
-  <div class="card">
-    <div class="title"><a href="products/prod4.html">Lenovo Legion Y540 Intel Core i5 9th Gen 15.6 inch FHD Gaming Laptop </a></div>
-  <div class="img_box">
-    <img class="image" src="images/4.png">
-  </div>
-  <div class="price">
-    PRICE: Rs 58,990
-  </div>
-  <div class="add">
-    <button class="button btn">ADD TO CART</button>
-  </div>
-</div>
-<div class="card">
-  <div class="title"><a href="products/prod5.html">HP Chromebook 14a-na0002TU 14-inch Laptop (Celeron N4020/4GB/64GB SSD)
-  </a></div>
-<div class="img_box">
-  <img class="image" src="images/5.png">
-</div>
-<div class="price">
-  PRICE: Rs 30,480
-</div>
-<div class="add">
-  <button class="button btn">ADD TO CART</button>
-</div>
-</div>
-<div class="card">
-  <div class="title"><a href="products/prod6.html">Lenovo IdeaPad Slim 3i 10th Gen Intel Core i5 15.6-inch Full HD IPS Thin and Light Laptop
-  </a></div>
-<div class="img_box">
-  <img class="image" src="images/6.png">
-</div>
-<div class="price">
-  PRICE: Rs 54,990
-</div>
-<div class="add">
-  <button class="button btn">ADD TO CART</button>
-</div>
-</div>
+          <div class="row"> 
+            <div class=" col-lg-3 image">
+                <img src="images/1.png">
+            </div>
+            <div class=" col-lg-5 title">
+              <a href="products/prod1.html">Apple MacBook Pro (16-inch, 16GB RAM, 1TB Storage, 2.3GHz 9th Gen Intel Core i9) - Silver            </a>
 
+            </div>
+            <div class="col-lg-2 price">
+                Rs. 2,32,990
+            </div>
+            <div class="col-lg-2 date">
+                Date: 17/01/2021
+            </div>
+      </div>
+    </div>
+    
+    <div class="card">
+        <div class="row"> 
+          <div class=" col-lg-3 image">
+              <img src="images/5.png">
+          </div>
+          <div class=" col-lg-5 title">
+            <a href="products/prod5.html"> HP Chromebook 14a-na0002TU 14-inch Laptop (Celeron N4020/4GB/64GB SSD/Chrome OS/Integrated Graphics), Ceremic White
+
+            </a>
+
+          </div>
+          <div class="col-lg-2 price">
+              Rs. 30,480
+          </div>
+          <div class="col-lg-2 date">
+            Date: 02/01/2021
+        </div>
+  </div>
+  </div>
+<!--
+<div class="total">
+  <div class="row">
+    <div class="col-lg-3 items">No. of Items: 2</div>
+    <div class="col-lg-7 checkout">
+
+      <button class="btn"><span id="text1">Proceed to Checkout</span></button>
+    </div>
+
+    <div class="col-lg-2 amt">
+      Total: 1,41,580
+    </div>
+    </div>
+</div>-->
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
