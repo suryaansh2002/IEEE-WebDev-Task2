@@ -1,6 +1,6 @@
 body{
     background-image: linear-gradient(to right,#3546e6,#eb46b7); 
-    
+    overflow-x: hidden;
 }
 .header{
     color: white;
@@ -31,12 +31,11 @@ body{
 img{
     margin: auto;
     height: 150px;
+    width: 90%;
     padding-left: 20px;
 
 }
-.image{
-    border-right: solid 1px white;
-}
+
 .title, .price, .date{
     color: white;
     font-weight: bold;
@@ -62,6 +61,12 @@ img{
 .total .row{
     height: 100px;
 }
+.row .col-lg-3, .row .col-lg-5{
+    border: none;
+    }
+.row .image{
+        border-right: solid 1px white;
+    }
 .amt{
     color: white;
     font-weight: bold;
@@ -100,3 +105,60 @@ img{
     font-size: large;
     font-weight: 500;
 }
+
+@media screen and (max-width: 1100px) {
+    .total,.card{
+        width: 90%;
+    }
+    .title, .price{
+        color: white;
+        font-weight: bold;
+        font-size: medium;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    }
+    
+    @media screen and (max-width: 1000px) {
+        img{
+            height: 150px;
+            width: 300px;
+            }
+        .amt{
+            visibility: hidden;
+        }
+        .items{
+            margin-top: 20px;
+            font-size: x-large;
+        }
+        .image{
+            text-align: center;
+        }
+        .card .col-lg-2,.card .col-lg-5, .title, .row .col-lg-3, .image, .items, .amt{
+            border: none;
+        }
+        .foot .row .abc{
+            border-bottom:2px solid white ;
+        }
+        .row .items, .row .amt2{
+            font-size: medium;
+        }
+        .amt2{
+            visibility:visible;
+        }
+        .total .row{
+            height: auto;
+        }
+        .btn{
+            height: auto;
+            margin: 10px;
+        }
+        
+      }  
+      @media screen and (max-width: 1000px) {
+    .card, .total{
+        margin-left: 5%;  
+      }
+    }

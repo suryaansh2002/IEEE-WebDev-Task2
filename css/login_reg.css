@@ -88,3 +88,33 @@ h3{
 	position: fixed;
 	top: 0px;
 }
+@media screen and (max-width: 575px) {
+    .box{
+		width: 80%;
+	}
+	.col-sm-4{
+		text-align: center;
+		margin-left: 0px;
+	}
+	.log_using{
+		margin-bottom: 5px;
+	}
+	
+	.reg{
+		margin-top: 10px;
+	}
+	#main{
+		height: 85vh;
+	}
+	.row{
+		padding: 2px;
+	}
+  }  
+  @media screen and (max-width: 480px) {
+	.box i{
+		padding-right: 15
+		px;
+		padding-left: 15px;
+		cursor: pointer;
+	}
+  }  

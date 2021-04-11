@@ -1,5 +1,6 @@
 body{
     background-image: linear-gradient(to right,#3546e6,#eb46b7); 
+    overflow-x: hidden;
 }
 .card{
     background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(156,152,158,1));
@@ -64,4 +65,27 @@ ul{
 li{
     padding-top: 5px;
     padding-bottom: 5px;
+}
+@media screen and (max-width: 990px) {
+    .col-left{
+        border: none;
+}
+.title{
+    font-size: medium;
+} 
+.img{
+    border-radius: 10px;
+    height: 50%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+} 
+.price{
+    padding-left: 15%;
+    font-size: large;
+
+}
+.text1{
+    font-size: 15px;
+}
 }

@@ -1,13 +1,17 @@
 body{
     background-image: linear-gradient(to right,#3546e6,#eb46b7); 
+    overflow-x: hidden;
 }
 #main {
     width: 100%;
-    height: 80vh;
+    height: auto;
+    padding: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+  
+
+}
   
 .card{
     justify-content: center;
@@ -45,4 +49,7 @@ body{
     background-image: linear-gradient(to right,#3546e6,#eb46b7); 
 
 
+}
+.row .order{
+    border: none;
 }
